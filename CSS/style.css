@@ -1,0 +1,76 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+}
+nav {
+    width: 50%;
+    padding: 1%;
+}
+ul {
+width: 100%;
+margin-left: auto;
+}
+.heroimg {
+    height: 600px;
+    padding: 25px;
+}
+.content {
+    width: 650px;
+    margin: 0 auto;
+    text-align: center; 
+}
+footer {
+    background-color: #7E184B;
+    color: #F47E20;
+    margin-top: 550px;
+    height: 60px;
+    text-align: center;
+    vertical-align: center;
+}
+p {
+    font-family: clone-rounded-latin, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: large;
+}
+h1 {
+    font-family: clone-rounded-latin, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35pt;
+}
+h2 {
+    font-family: clone-rounded-latin, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30pt;
+    margin-top: 15px;
+}
+h3 {
+    font-family: clone-rounded-latin, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30pt;
+    margin-top: -45px;
+}
+li {
+    display: inline;
+    padding: 20px;
+    font-family: clone-rounded-latin, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18pt;
+    text-align: center;
+}
+button {
+    color: white;
+    background-color: #7E184B;
+    padding: 15px;
+    font-size: medium;
+    font-family: clone-rounded-latin, sans-serif;
+
+}
