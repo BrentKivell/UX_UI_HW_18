@@ -23,6 +23,29 @@ margin-left: auto;
     margin: 0 auto;
     text-align: center; 
 }
+
+.myPhilosophy {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 500px;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    margin-top: -55px;
+}
+
+.flexBox {
+    padding: 40px;
+}
+
+.workGrid {
+    display: grid;
+}
+
 footer {
     background-color: #7E184B;
     color: #F47E20;
@@ -36,6 +59,7 @@ p {
     font-style: normal;
     font-weight: 100;
     font-size: large;
+    width: 360px;
 }
 h1 {
     font-family: clone-rounded-latin, sans-serif;
@@ -57,6 +81,20 @@ h3 {
     font-size: 30pt;
     margin-top: -45px;
 }
+h4 {
+    font-family: clone-rounded-latin, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20pt;
+    margin-top: 15px;
+}
+h5 {
+    font-family: clone-rounded-latin, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17pt;
+    margin-top: -15px;
+}
 li {
     display: inline;
     padding: 20px;
@@ -72,5 +110,17 @@ button {
     padding: 15px;
     font-size: medium;
     font-family: clone-rounded-latin, sans-serif;
+}
+.workGrid {
+    display: grid;
+}
 
+.mySkills {
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+}
+.icons {
+    padding: 25px;
+    width: auto;
 }
