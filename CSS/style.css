@@ -1,19 +1,32 @@
 .inline-block {
-    display: inline-block;
     vertical-align: top;
+    background-color: #F47E20;
 }
 .logo {
-    width: 23%;
     padding: 1%;
+    height: 108px;
 }
+
 nav {
-    width: 50%;
+    width: 80%;
     padding: 1%;
+    height: 108px;
+    display: none;
 }
+
 ul {
 width: 100%;
 margin-left: auto;
+text-align: center;
 }
+
+.navigation {
+    display:inline-flexbox;
+    vertical-align: top;
+    background-color: #F47E20;
+    height: 108px;
+}
+
 .heroimg {
     height: 600px;
     padding: 25px;
@@ -42,8 +55,15 @@ margin-left: auto;
     padding: 40px;
 }
 
+.myWork {
+    align-items: center;
+}
+
 .workGrid {
     display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 25% 25% 25% 25%;
+    justify-content: stretch;
 }
 
 footer {
@@ -124,3 +144,18 @@ button {
     padding: 25px;
     width: auto;
 }
+
+@media only screen and (max-width: 1200px) {
+    .flexBox {
+        background-color: aqua;
+        width: 440px;
+        justify-content: center;        
+    }
+    .flexContainer {
+        flex-direction: column;
+        justify-content: center;
+    }
+    p {
+        margin: auto;
+    }
+};
