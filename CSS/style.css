@@ -1,35 +1,24 @@
 .inline-block {
-    vertical-align: top;
     background-color: #F47E20;
-}
-.logo {
-    padding: 1%;
-    height: 108px;
-}
-
-nav {
-    width: 80%;
-    padding: 1%;
-    height: 108px;
-    display: none;
-}
-
-ul {
-width: 100%;
-margin-left: auto;
-text-align: center;
+    padding: 20px;
+    width: 100%;
+    height: 100px;
 }
 
 .navigation {
-    display:inline-flexbox;
-    vertical-align: top;
-    background-color: #F47E20;
-    height: 108px;
+    display: flex;
+    width: 100%;
+}
+
+ul {
+text-align: center;
+margin-top: -90px;
 }
 
 .heroimg {
     height: 600px;
     padding: 25px;
+    margin-top: 100px;
 }
 .content {
     width: 650px;
@@ -53,34 +42,52 @@ text-align: center;
 
 .flexBox {
     padding: 40px;
+    width: 360px;
 }
 
 .myWork {
     align-items: center;
+    text-align: center;
 }
 
 .workGrid {
     display: grid;
     grid-template-columns: 25% 75%;
-    grid-template-rows: 25% 25% 25% 25%;
-    justify-content: stretch;
+    gap: 40px;
+    width: 100%;
+    align-items: center;
+}
+
+.workGrid img {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+
+}
+.workGrid p {
+    margin-bottom: 20px;
+}
+
+.gridImage {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 footer {
     background-color: #7E184B;
     color: #F47E20;
-    margin-top: 550px;
-    height: 60px;
-    text-align: center;
-    vertical-align: center;
+    margin-top: 250px;
+    height: 80px;
 }
+
 p {
     font-family: clone-rounded-latin, sans-serif;
     font-style: normal;
     font-weight: 100;
     font-size: large;
-    width: 360px;
 }
+
 h1 {
     font-family: clone-rounded-latin, sans-serif;
     font-style: normal;
@@ -116,7 +123,7 @@ h5 {
     margin-top: -15px;
 }
 li {
-    display: inline;
+    display: inline-block;
     padding: 20px;
     font-family: clone-rounded-latin, sans-serif;
     font-style: normal;
@@ -141,8 +148,11 @@ button {
     text-align: center;
 }
 .icons {
-    padding: 25px;
     width: auto;
+    margin-top: 25px;
+}
+.icons img {
+    margin: 0px 20px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -153,6 +163,7 @@ button {
     }
     .flexContainer {
         flex-direction: column;
+        align-items: center;
         justify-content: center;
     }
     p {
